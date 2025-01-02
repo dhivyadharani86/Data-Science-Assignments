@@ -6,7 +6,7 @@ from PIL import Image
 
 # loading in the model to predict on the data 
 # pickle_in = open('D:\OneDrive - Excelra Knowledge Solutions Pvt Ltd\Desktop\Data Science Assignments\SolarPower_Project\classifier.pkl', 'rb') 
-pickle_in = open('https:\\github.com\dhivyadharani86\Data-Science-Assignments\blob\0b4362ca01e46f6b9f4dc5a5d6bf26348a54a148\SolarPower_Project\classifier.pkl', 'rb') 
+pickle_in = open('SolarPower_Project\classifier.pkl', 'rb') 
 classifier = pickle.load(pickle_in) 
 
 def welcome(): 
