@@ -1,11 +1,4 @@
 numpy
-seaborn
-matplotlib
-wheel
-setuptools
-plotly
 pandas
 joblib
 scikit-learn
-streamlit
-python
