@@ -7,4 +7,4 @@ joblib==0.16.0
 scikit-learn==1.1.2
 streamlit==1.41.1
 python==3.13
-setuptools wheel
+setuptools
