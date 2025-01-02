@@ -3,6 +3,7 @@ import numpy as np
 import pickle 
 import streamlit as st 
 from PIL import Image 
+import streamlit.web.cli as stcli
 
 
 # loading in the model to predict on the data 
