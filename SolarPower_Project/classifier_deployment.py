@@ -28,7 +28,7 @@ def prediction(distance_to_solar_noon, temperature,	wind_direction,wind_speed, s
 # this is the main function in which we define our webpage 
 def main(): 
 	# giving the webpage a title 
-	st.title("Solar Power Prediction") 
+	st.title("Solar Power Prediction Team 5") 
 	
 	# here we define some of the front end elements of the web page like 
 	# the font and background color, the padding and the text to be displayed 
