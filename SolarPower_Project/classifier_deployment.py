@@ -5,7 +5,8 @@ import streamlit as st
 from PIL import Image 
 
 # loading in the model to predict on the data 
-pickle_in = open('D:\OneDrive - Excelra Knowledge Solutions Pvt Ltd\Desktop\Data Science Assignments\SolarPower_Project\classifier.pkl', 'rb') 
+# pickle_in = open('D:\OneDrive - Excelra Knowledge Solutions Pvt Ltd\Desktop\Data Science Assignments\SolarPower_Project\classifier.pkl', 'rb') 
+pickle_in = open('classifier.pkl', 'rb') 
 classifier = pickle.load(pickle_in) 
 
 def welcome(): 
