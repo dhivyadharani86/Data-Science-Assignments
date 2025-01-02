@@ -3,7 +3,7 @@ import numpy as np
 import pickle 
 import streamlit as st 
 from PIL import Image 
-# import scikit
+
 
 # loading in the model to predict on the data 
 # pickle_in = open('D:\OneDrive - Excelra Knowledge Solutions Pvt Ltd\Desktop\Data Science Assignments\SolarPower_Project\classifier.pkl', 'rb') 
