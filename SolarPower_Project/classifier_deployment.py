@@ -7,8 +7,8 @@ import streamlit.web.cli as stcli
 
 
 # loading in the model to predict on the data 
-pickle_in = open('D:\OneDrive - Excelra Knowledge Solutions Pvt Ltd\Desktop\Data Science Assignments\SolarPower_Project\classifier.pkl', 'rb') 
-# pickle_in = open('SolarPower_Project/classifier.pkl', 'rb') 
+# pickle_in = open('D:\OneDrive - Excelra Knowledge Solutions Pvt Ltd\Desktop\Data Science Assignments\SolarPower_Project\lgbm_reg.pkl', 'rb') 
+pickle_in = open('SolarPower_Project/lgbm_reg.pkl', 'rb') 
 classifier = pickle.load(pickle_in) 
 
 def welcome(): 
@@ -43,8 +43,10 @@ def main():
 	st.markdown(html_temp, unsafe_allow_html = True) 
 	
 	# the following lines create text boxes in which the user can enter 
-	# the data required to make the prediction 
-	distance_to_solar_noon = st.text_input("Distance_to_solar_noonh", "Type Here") 
+	# the data required to make the prediction
+	# st.slider("Please select a rating range", 0, 300)
+	# distance_to_solar_noon =st.slider("Please select a rating range", 0, 1)
+	distance_to_solar_noon = st.text_input("Distance_to_solar_noon", "Type Here") 
 	temperature = st.text_input("Temperature", "Type Here") 
 	wind_direction = st.text_input("Wind_direction", "Type Here") 
 	wind_speed = st.text_input("Wind speed", "Type Here") 	
