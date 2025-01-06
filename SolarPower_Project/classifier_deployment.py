@@ -8,7 +8,7 @@ import streamlit.web.cli as stcli
 
 # loading in the model to predict on the data 
 # pickle_in = open('D:\OneDrive - Excelra Knowledge Solutions Pvt Ltd\Desktop\Data Science Assignments\SolarPower_Project\lgbm_reg.pkl', 'rb') 
-pickle_in = open('SolarPower_Project/lgbm_reg.pkl', 'rb') 
+pickle_in = open('SolarPower_Project/classifier.pkl', 'rb') 
 classifier = pickle.load(pickle_in) 
 
 def welcome(): 
